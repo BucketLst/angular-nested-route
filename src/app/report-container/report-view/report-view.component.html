@@ -1,0 +1,21 @@
+<mat-card style="background: #efe7d0;margin: 25px 60px 25px;">
+  <mat-card-header>
+    <mat-card-title>Report View</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-toolbar style="background: #f0f1da;">Info cards</mat-toolbar>
+    <nav style="background: #e6d9d9; margin: 48px 0px 30px;" mat-tab-nav-bar>
+      <a mat-tab-link routerLinkActive="active" routerLink="first">
+        First
+      </a>
+      <a mat-tab-link routerLinkActive="active" routerLink="second">
+        Second
+      </a>
+      <a mat-tab-link routerLinkActive="active" routerLink="third">
+        Third
+      </a>
+    </nav>
+    <router-outlet></router-outlet>
+  </mat-card-content>
+</mat-card>
+
